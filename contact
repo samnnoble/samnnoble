@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<!-- 
+    Author: Sam Noble
+     Date: 5/7/24
+     Assignment: Project 1 - Complete AFTER Final Topic Discussion
+     Course: CIS166AA 26678 
+ -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index.html</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+<head>
+<body>
+    <div class="container">
+
+<h1>Contact Services</h1>
+<nav id="main-nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html">Project</a></li>
+    </ul>
+</nav>
+
+<p>If you are interested in working together or have any inquiries, 
+    please feel free to contact me. You can use the form below to 
+    reach out. Simply fill in your name, email, and message, and 
+    I'll get back to you as soon as possible. Your questions, ideas, 
+    or proposals are always welcomed, and I'm excited to hear from you!</p>
+            <section id="contact">
+                <h2>Contact Form</h2>
+                <form id="contactForm" action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="phone">Your Phone (optional):</label>
+                    <input type="text" id="phone" name="phone">
+            
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+            
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+<br>
+<footer>
+    <p style="color: lightblue;">&copy; 2024 Sam Noble. All rights reserved. 
+        | Contact: <a href="mailto:sam2252032@maricopa.edu">sam2252032@maricopa.edu</a></p>
+</footer>
+</div>
+</body>
+</html>
