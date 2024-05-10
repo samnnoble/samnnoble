@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!--
+    Author: Sam Noble
+    Date: 5/7/24
+    Assignment: Project 1 - Complete AFTER Final Topic Discussion
+    Course: CIS166AA 26678
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project.html</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="image2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image6.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<script src="js.js"></script>
+
+<br>
+<footer>
+    <p style="color: lightblue;">&copy; 2024 Sam Noble. All rights reserved. 
+        | Contact: <a href="mailto:sam2252032@maricopa.edu">sam2252032@maricopa.edu</a></p>
+</footer>
+</div>
+</body>
+</html>
