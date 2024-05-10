@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+    Author: Sam Noble
+    Date: 4/30/24
+    Assignment: Project 1 - Complete AFTER Final Topic Discussion
+    Course: CIS166AA 26678 
+*/
+
+/* Styling for the h1 heading */
+    h1 {
+        font-size: 2em; 
+        color: #333; 
+    }
+
+/* Styling for paragraphs with the "description" class */
+    .description {
+        font-size: 1.1em; 
+        line-height: 1.6; 
+        color: #666; 
+    }
+
+/* Styling for the main navigation */
+
+/* Styling for the unordered list within the main navigation */
+
+
+/* Styling for the list items within the main navigation */
+
+
+/* Styling for the links within the list items of the main navigation */
+
+
+/* Styling for the hover effect of links within the main navigation */
+
